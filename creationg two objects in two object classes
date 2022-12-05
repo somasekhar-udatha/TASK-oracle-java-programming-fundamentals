@@ -1,0 +1,41 @@
+OBJECTCLASS1 : 
+
+package task_workshop_cbtit;
+
+public class Objectclass1 {
+	void displaydata() {
+		System.out.println("in object class 1");
+	}
+}
+
+
+OBJECTCLASS2 : 
+
+package task_workshop_cbtit;
+
+public class Objectclass2 {
+	void printdata() {
+		System.out.println("in object class 2");
+	}
+
+}
+
+
+DRIVER CLASS :
+
+package task_workshop_cbtit;
+
+public class driverclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Objectclass1 obj1;
+		obj1 = new Objectclass1();
+		Objectclass2 obj2;
+		obj2 = new Objectclass2();
+		obj1.displaydata();
+		obj2.printdata();
+
+	}
+
+}
