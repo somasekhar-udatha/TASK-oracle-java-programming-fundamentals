@@ -1,0 +1,24 @@
+OBJECT CLASS :
+
+public class objectclass {
+	void Display() { //no arg no return method
+		System.out.println("WELCOME TO CBIT.......from object class");
+	}
+
+}
+
+DRIVER CLASS :
+
+
+public class DriverCls {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("WELCOME TO CBIT");
+		objectclass obj;   //object declaration
+		obj = new objectclass();   // object instantiation
+		obj.Display();   // to execute object class method in driver class
+		
+	}
+
+}
